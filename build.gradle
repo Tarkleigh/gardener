@@ -6,7 +6,7 @@
  */
 
  plugins {
-    id 'com.github.blindpirate.gogradle' version '0.10.2'
+    id 'com.github.blindpirate.gogradle' version '0.11.1'
 }
 
 golang {
@@ -21,7 +21,7 @@ repositories{
     }    
 }
 
-build {
+goBuild {
     go 'install github.com/gardener/gardener/cmd/...'
 }
 
